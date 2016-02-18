@@ -1,0 +1,27 @@
+########################################################################
+#This file is used for testing purpoes of accessing the mysql database
+#########################################################################
+###sql libiray###########################################################
+
+import MySQLdb as mdb
+import subprocess
+
+#status = subprocess.call()
+
+
+
+# Connect to the MySQL instance
+db_host = '127.0.0.1'
+db_user = 'gauss'
+db_pass = ''
+db_name = 'ibemining'
+con = mdb.connect(host=db_host, user=db_user, db=db_name, port=9870)
+cur = con.cursor()
+
+
+
+
+
+
+
+
